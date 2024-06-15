@@ -1,0 +1,55 @@
+* {
+  font-family: 'Roboto';
+}
+
+.main-container {
+  height: 100vh;
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  width: 50%;
+  padding: 1%;
+  background-color: #ffffff;
+  border-radius: 2%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.country-name {
+  align-self: flex-start;
+  font-size: 2vw;
+  color: #323f4b;
+  font-weight: bold;
+}
+
+.name-container {
+  width: 50%;
+}
+
+#countryCapitals {
+  padding: 5px 10px;
+  border: none;
+  background-color: #cbd2d9;
+  border-radius: 1%;
+  width: 40%;
+}
+
+#countryCapitals:focus {
+  outline: none;
+}
+
+.select-container{
+  width: 60%;
+  text-align: center;
+}
+
+
+
+
